@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.button{
+    align-self: end;
+    margin-top: 8px;
+}

@@ -1,0 +1,16 @@
+.item{
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+    align-items: center;
+    
+    &:hover{
+        background-color: rgb(178, 222, 241);
+        cursor: pointer;
+    }
+    &:active{
+        background-color: rgb(132, 179, 201);   
+    }
+}
